@@ -2,7 +2,9 @@
 Problem Name : 141. Linked List Cycle
 Problem Link : https://leetcode.com/problems/linked-list-cycle/description/
 
-My Approach : First, I create two pointers first and second point to head node. Then, I start a while loop and first moves one step and second moves two steps at a time. When first == second, I return true. Otherwise, I return false.
+My Approach : First, I create two pointers first and second point to head node. 
+Then, I start a while loop and first moves one step and second moves two steps at a time.
+When first == second, I return true. Otherwise, I return false.
 */
 
 /**

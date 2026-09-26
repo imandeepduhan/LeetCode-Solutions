@@ -2,7 +2,9 @@
 Problem Name : 2816. Double a Number Represented as a Linked List
 Problem Link : https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/
 
-My Approach: First, I create a string str that stores all the values of the linked list. Then, I create a BigInteger and convert str into a BigInteger. Then, I multiply it by 2 and convert it back into a string str. Finally, I add all the values to the linked list ans and return it.
+My Approach: First, I create a string str that stores all the values of the linked list. 
+Then, I create a BigInteger and convert str into a BigInteger. Then, I multiply it by 2 and convert
+it back into a string str. Finally, I add all the values to the linked list ans and return it.
 
 */
 

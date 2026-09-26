@@ -2,7 +2,9 @@
 Problem Name : 2181. Merge Nodes in Between Zeros
 Problem Link : https://leetcode.com/problems/merge-nodes-in-between-zeros/description/
 
-My Approach: First, I create an ans linked list. Then, I set curr to ans and list to head.next. Then, I create a variable sum and start a while loop. If list.val == 0, I add sum to the answer list and reset sum to 0. Otherwise, I add list.val to sum. Finally, I return ans.next.
+My Approach: First, I create an ans linked list. Then, I set curr to ans and list to head.next. 
+Then, I create a variable sum and start a while loop. If list.val == 0, I add sum to the answer list
+and reset sum to 0. Otherwise, I add list.val to sum. Finally, I return ans.next.
 
 */
 /**

@@ -2,7 +2,8 @@
 Problem Name : 125. Valid Palindrome
 Problem Link : https://leetcode.com/problems/valid-palindrome/description/
 
-My Approach : First, I convert uppercase letters to lowercase and remove dots, commas, spaces, etc. Then, I create a new String and store the characters in reverse order. Finally, I compare both Strings.
+My Approach : First, I convert uppercase letters to lowercase and remove dots, commas, spaces, etc.
+Then, I create a new String and store the characters in reverse order. Finally, I compare both Strings.
 */
 
 class Solution {

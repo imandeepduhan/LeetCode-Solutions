@@ -2,7 +2,10 @@
 Problem Name : 104. Maximum Depth of Binary Tree
 Problem Link : https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
 
-My Approach: First, I create a function dfs that returns the maximum depth of the tree. In this function, I create two variables l and r to store the maximum depth of the left and right subtree.If the root is null, I return 0. Otherwise, I recursively find the depth of the left and right subtree. Then I take the maximum of l and r and add 1 for the current node.
+My Approach: First, I create a function dfs that returns the maximum depth of the tree.
+In this function, I create two variables l and r to store the maximum depth of the left 
+and right subtree.If the root is null, I return 0. Otherwise, I recursively find the depth
+of the left and right subtree. Then I take the maximum of l and r and add 1 for the current node.
 
 */
 

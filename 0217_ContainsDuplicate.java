@@ -2,7 +2,8 @@
 Problem Name : 217 Contains Duplicate
 Problem Link : https://leetcode.com/problems/contains-duplicate/description/
 
-My Approach : I use a HashSet to remove duplicate elements. Finally, I check if nums.length == set.size(). If they are equal, there are no duplicates, so I return false. Otherwise, I return true.
+My Approach : I use a HashSet to remove duplicate elements. Finally, I check if nums.length == set.size(). 
+If they are equal, there are no duplicates, so I return false. Otherwise, I return true.
 
 */
 

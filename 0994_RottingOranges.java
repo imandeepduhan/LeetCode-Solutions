@@ -2,7 +2,10 @@
 Problem Name : 994. Rotting Oranges
 Problem Link : https://leetcode.com/problems/rotting-oranges/description/
 
-My Approach: First, I create a Node class in which I create three variables: row, col, and val. Then, I create a Queue. It stores Node type values. I start a for loop to find 2 and store them in the Queue. Then, I call the bfs function. It runs until the Queue is not empty. In BFS, I check the four adjacent cells and add the fresh orange to the Queue. Finally, I return the ans.
+My Approach: First, I create a Node class in which I create three variables: row, col, and val.
+Then, I create a Queue. It stores Node type values. I start a for loop to find 2 and store them in the Queue. 
+Then, I call the bfs function. It runs until the Queue is not empty. 
+In BFS, I check the four adjacent cells and add the fresh orange to the Queue. Finally, I return the ans.
 
 */
 

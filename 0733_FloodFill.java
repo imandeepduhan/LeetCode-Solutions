@@ -3,7 +3,12 @@
 Problem Name : 733. Flood Fill
 Problem Link : https://leetcode.com/problems/flood-fill/description/
 
-My approach : My approach: First, I checked the condition if the current element of the image is equal to the new color, then I stop the function and return the image matrix. Otherwise, I call the DFS function, which takes the image matrix, sr (row), sc (column), color, and oldColor as parameters. In the DFS function, I checked the condition `if (sr < 0 || sr >= row || sc < 0 || sc >= col || image[sr][sc] != oldColor || image[sr][sc] == color)`. If this condition is true, I return; otherwise, I call its four neighboring cells.
+My approach : My approach: First, I checked the condition if the current element of the image 
+is equal to the new color, then I stop the function and return the image matrix.
+Otherwise, I call the DFS function, which takes the image matrix, sr (row), sc (column), color, and oldColor
+as parameters. In the DFS function, I checked the condition 
+if (sr < 0 || sr >= row || sc < 0 || sc >= col || image[sr][sc] != oldColor || image[sr][sc] == color).
+If this condition is true, I return; otherwise, I call its four neighboring cells.
 
 */
 

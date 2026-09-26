@@ -2,7 +2,10 @@
 Problem Name : 347. Top K Frequent Elements
 Problem Link : https://leetcode.com/problems/top-k-frequent-elements/description/
 
-My Approach : First, I store the elements in a HashMap as key-value pairs. When duplicate elements are present, I increase their value by 1. Then, I store the key-value pairs in a list and sort the list in descending order based on the values. Finally, I store the top k elements in the ans array and return the ans array.
+My Approach : First, I store the elements in a HashMap as key-value pairs. 
+When duplicate elements are present, I increase their value by 1. 
+Then, I store the key-value pairs in a list and sort the list in descending order based on the values. 
+Finally, I store the top k elements in the ans array and return the ans array.
 
 */
 

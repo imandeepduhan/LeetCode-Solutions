@@ -2,7 +2,11 @@
 Problem Name : 3834. Merge Adjacent Equal Elements
 Problem Link : https://leetcode.com/problems/merge-adjacent-equal-elements/description/
 
-My Approach: First, I create a stack and push the first element of nums into it. Then, I start a for loop and check the condition i < nums.length. I create a variable prev that stores the current element of nums. If prev != stack.peek(), I push the element into the stack. Otherwise, I keep removing elements until prev != stack.peek() becomes true. Then, I create an ArrayList and store all the stack elements in it one by one. Finally, I return the list.
+My Approach: First, I create a stack and push the first element of nums into it.
+Then, I start a for loop and check the condition i < nums.length. I create a variable prev 
+that stores the current element of nums. If prev != stack.peek(), I push the element into the stack.
+Otherwise, I keep removing elements until prev != stack.peek() becomes true.
+Then, I create an ArrayList and store all the stack elements in it one by one. Finally, I return the list.
 
 */
 
